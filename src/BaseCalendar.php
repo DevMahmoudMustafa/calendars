@@ -480,7 +480,7 @@ abstract class BaseCalendar
 			$num = '' . $value;
 			if ($doubled($match, $step)) {
 				while (strlen($num) < $len) {
-					$num = '0' . $num;
+					$num = '0' + $num;
 				}
 			}
 			return $num;
